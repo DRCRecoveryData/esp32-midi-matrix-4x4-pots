@@ -23,6 +23,41 @@ Note that you may need to install the ESP32-BLE-MIDI library in the Arduino IDE 
 
 ## Usage
 
+| Component       | ESP32-S3 DevKitC Pin |
+|-----------------|----------------------|
+| Button 1        | 36                   |
+| Button 2        | 37                   |
+| Button 3        | 38                   |
+| Button 4        | 39                   |
+| Button 5        | 40                   |
+| Button 6        | 41                   |
+| Button 7        | 42                   |
+| Button 8        | 43                   |
+| Button 9        | 44                   |
+| Button 10       | 45                   |
+| Button 11       | 46                   |
+| Button 12       | 47                   |
+| Button 13       | 48                   |
+| Button 14       | 49                   |
+| Button 15       | 50                   |
+| Button 16       | 51                   |
+| Potentiometer 1 | Analog pin 0          |
+| Potentiometer 2 | Analog pin 1          |
+| Potentiometer 3 | Analog pin 2          |
+| Potentiometer 4 | Analog pin 3          |
+
+   +---+---+---+---+
+   | 36| 37| 38| 39|
+   +---+---+---+---+
+   | 40| 41| 42| 43|
+   +---+---+---+---+
+   | 44| 45| 46| 47|
+   +---+---+---+---+
+   | 48| 49| 50| 51|
+   +---+---+---+---+
+
+
+
 To use the MIDI matrix controller, follow these steps:
 
 1. Connect the potentiometers and buttons to the appropriate pins on the ESP32-S3 DevKitC board according to the pinout diagram in the code.
